@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
-   KeySystem = true, -- Set this to true to use our key system
+   KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
       Title = "Blobby Hub Key",
       Subtitle = "Key System",
@@ -182,5 +182,21 @@ local Button = CoolTab:CreateButton({
     Callback = function()
     -- The function that takes place when the button is pressed
     loadstring(game:HttpGet("https://pastebin.com/raw/JR7RBh2a"))()
+    end,
+ })
+
+ local Button = CoolTab:CreateButton({
+    Name = "FE ak-47 script💀💀💀",
+    Callback = function()
+    -- The function that takes place when the button is pressed
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47", true))() 
+    end,
+ })
+
+ local Button = CoolTab:CreateButton({
+    Name = "Brookhaven Troll Menu (Use wisely)",
+    Callback = function()
+    -- The function that takes place when the button is pressed
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
     end,
  })
